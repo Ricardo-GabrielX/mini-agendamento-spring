@@ -1,6 +1,7 @@
 package dev.ricardogabriel.miniagendamento.model;
 
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,6 +10,7 @@ import java.time.LocalDateTime;
 @Entity
 @Getter
 @Setter
+@Builder
 @Table(name = "tb_agendamento")
 public class Agendamento {
     @Id
