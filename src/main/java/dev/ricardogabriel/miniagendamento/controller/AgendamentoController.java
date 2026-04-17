@@ -8,6 +8,8 @@ import jakarta.validation.Valid;
 import org.springframework.data.repository.query.Param;
 import org.springframework.web.bind.annotation.*;
 
+@RestController
+@RequestMapping("/api/agendamentos")
 public class AgendamentoController {
     private final AgendamentoService service;
 
