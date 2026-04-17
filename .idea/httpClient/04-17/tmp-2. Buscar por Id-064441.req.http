@@ -1,0 +1,6 @@
+// Size: 0 B
+### 2. Buscar por Id
+GET http://localhost:8080/api/agendamentos/1 HTTP/1.1
+Accept: application/json
+Content-Length: 0
+

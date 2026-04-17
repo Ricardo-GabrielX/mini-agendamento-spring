@@ -1,0 +1,19 @@
+// Status: 200, time: 44ms, size: 296 B
+### 1. Criar novo agendamento (POST)
+POST http://localhost:8080/api/agendamentos HTTP/1.1
+content-length: 296
+content-type: application/json
+date: Fri, 17 Apr 2026 21:38:25 GMT
+
+{
+  "id": 2,
+  "titulo": "Reunião de Alinhamento FATEC",
+  "descricao": "Discussão sobre o projeto de agendamento",
+  "dataInicio": "2026-05-01T14:00:00",
+  "dataFim": "2026-05-01T15:30:00",
+  "status": "AGENDADO",
+  "usuario": "Ricardo",
+  "criadoEm": "2026-04-17T18:38:25.343375",
+  "atualizadoEm": "2026-04-17T18:38:25.343375"
+}
+>> C:\Projetos\miniagendamento\.idea\httpClient\04-17\1. Criar novo agendamento (POST)\2026-04-17T183825.json

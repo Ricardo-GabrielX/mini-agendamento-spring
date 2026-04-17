@@ -1,0 +1,19 @@
+// Status: 200, time: 38ms, size: 296 B
+### 2. Buscar por Id
+GET http://localhost:8080/api/agendamentos/2 HTTP/1.1
+content-length: 296
+content-type: application/json
+date: Fri, 17 Apr 2026 21:51:57 GMT
+
+{
+  "id": 2,
+  "titulo": "Reunião de Alinhamento FATEC",
+  "descricao": "Discussão sobre o projeto de agendamento",
+  "dataInicio": "2026-05-01T14:00:00",
+  "dataFim": "2026-05-01T15:30:00",
+  "status": "AGENDADO",
+  "usuario": "Ricardo",
+  "criadoEm": "2026-04-17T18:38:25.343375",
+  "atualizadoEm": "2026-04-17T18:38:25.343375"
+}
+>> C:\Projetos\miniagendamento\.idea\httpClient\04-17\2. Buscar por Id\2026-04-17T185158.json

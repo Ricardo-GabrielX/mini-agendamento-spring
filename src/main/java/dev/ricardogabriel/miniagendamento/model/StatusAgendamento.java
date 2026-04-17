@@ -1,5 +1,5 @@
 package dev.ricardogabriel.miniagendamento.model;
 
 public enum StatusAgendamento {
-    AGENDADO, CANCELADO, CONLUIDO
+    AGENDADO, CANCELADO, CONCLUIDO
 }

@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "titulo": "Reunião de Alinhamento - ATUALIZADA",
+  "descricao": "Nova descrição do agendamento",
+  "dataInicio": "2026-05-01T16:00:00",
+  "dataFim": "2026-05-01T17:00:00",
+  "status": "CONCLUIDO",
+  "usuario": "ricardo",
+  "criadoEm": "2026-04-17T18:32:07.311279",
+  "atualizadoEm": "2026-04-17T18:32:07.311279"
+}

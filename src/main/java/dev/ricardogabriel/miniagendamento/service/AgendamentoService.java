@@ -61,7 +61,7 @@ public class AgendamentoService {
     public AgendamentoResponse concluir(Long id) {
         Agendamento entity = repo.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("Agendamento não encontrado!"));
-        entity.setStatus(StatusAgendamento.CONLUIDO);
+        entity.setStatus(StatusAgendamento.CONCLUIDO);
         entity = repo.save(entity);
         return AgendamentoMapper.toResponse(entity);
 

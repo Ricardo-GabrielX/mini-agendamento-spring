@@ -1,0 +1,11 @@
+{
+  "id": 2,
+  "titulo": "Reunião de Alinhamento FATEC",
+  "descricao": "Discussão sobre o projeto de agendamento",
+  "dataInicio": "2026-05-01T14:00:00",
+  "dataFim": "2026-05-01T15:30:00",
+  "status": "CANCELADO",
+  "usuario": "Ricardo",
+  "criadoEm": "2026-04-17T18:38:25.343375",
+  "atualizadoEm": "2026-04-17T18:38:25.343375"
+}

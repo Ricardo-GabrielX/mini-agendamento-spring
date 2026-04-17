@@ -1,18 +1,34 @@
-
-### Buscar todos os agendamentos (GET ALL)
-GET http://localhost:8080/api/agendamentos
-Accept: application/json
-
-
-### Criar novo agendamento (POST)
+### 1. Criar novo agendamento (POST)
 POST http://localhost:8080/api/agendamentos
 Content-Type: application/json
 
 {
-    "titulo": "Reunião Maluca",
-    "descricao": "teste",
-    "dataInicio": "2025-10-26T16:02:00",
-    "dataFim": "2026-10-10T20:00:00",
-    "usuario": "ricardo"
+    "titulo": "Reunião de Alinhamento FATEC",
+    "descricao": "Discussão sobre o projeto de agendamento",
+    "dataInicio": "2026-05-01T14:00:00",
+    "dataFim": "2026-05-01T15:30:00",
+    "usuario": "Ricardo"
 }
 
+### 2. Buscar por Id
+GET http://localhost:8080/api/agendamentos/2
+Accept: application/json
+
+### 3. Atualizar
+PUT http://localhost:8080/api/agendamentos/1
+Content-Type: application/json
+
+{
+    "titulo": "Reunião de Alinhamento - ATUALIZADA",
+    "descricao": "Nova descrição do agendamento",
+    "dataInicio": "2026-05-01T16:00:00",
+    "dataFim": "2026-05-01T17:00:00"
+}
+
+### 5. Concluir um agendamento
+PUT http://localhost:8080/api/agendamentos/1/concluir
+Accept: application/json
+
+### 6. Cancelar um agendamento
+PUT http://localhost:8080/api/agendamentos/2/cancelar
+Accept: application/json

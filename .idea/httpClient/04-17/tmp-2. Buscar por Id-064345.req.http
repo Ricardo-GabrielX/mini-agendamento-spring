@@ -1,0 +1,15 @@
+// Size: 264 B
+### 2. Buscar por Id
+GET http://localhost:8080/api/agendamentos/1 HTTP/1.1
+Accept: application/json
+Content-Length: 264
+
+PUT http://localhost:8080/api/agendamentos/1
+Content-Type: application/json
+
+{
+    "titulo": "Reunião de Alinhamento - ATUALIZADA",
+    "descricao": "Nova descrição do agendamento",
+    "dataInicio": "2026-05-01T16:00:00",
+    "dataFim": "2026-05-01T17:00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "titulo": "Reunião Maluca",
+  "descricao": "teste",
+  "dataInicio": "2025-10-26T16:02:00",
+  "dataFim": "2026-10-10T20:00:00",
+  "status": "AGENDADO",
+  "usuario": "ricardo",
+  "criadoEm": "2026-04-17T18:32:07.311279",
+  "atualizadoEm": "2026-04-17T18:32:07.311279"
+}

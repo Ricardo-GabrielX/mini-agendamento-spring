@@ -1,0 +1,19 @@
+// Status: 200, time: 430ms, size: 246 B
+### Criar novo agendamento (POST)
+POST http://localhost:8080/api/agendamentos HTTP/1.1
+content-length: 246
+content-type: application/json
+date: Fri, 17 Apr 2026 21:32:07 GMT
+
+{
+  "id": 1,
+  "titulo": "Reunião Maluca",
+  "descricao": "teste",
+  "dataInicio": "2025-10-26T16:02:00",
+  "dataFim": "2026-10-10T20:00:00",
+  "status": "AGENDADO",
+  "usuario": "ricardo",
+  "criadoEm": "2026-04-17T18:32:07.311279",
+  "atualizadoEm": "2026-04-17T18:32:07.311279"
+}
+>> C:\Projetos\miniagendamento\.idea\httpClient\04-17\Criar novo agendamento (POST)\2026-04-17T183207.json

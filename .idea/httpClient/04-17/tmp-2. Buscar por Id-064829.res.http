@@ -1,0 +1,19 @@
+// Status: 200, time: 22ms, size: 293 B
+### 2. Buscar por Id
+GET http://localhost:8080/api/agendamentos/1 HTTP/1.1
+content-length: 293
+content-type: application/json
+date: Fri, 17 Apr 2026 21:48:29 GMT
+
+{
+  "id": 1,
+  "titulo": "Reunião de Alinhamento - ATUALIZADA",
+  "descricao": "Nova descrição do agendamento",
+  "dataInicio": "2026-05-01T16:00:00",
+  "dataFim": "2026-05-01T17:00:00",
+  "status": "AGENDADO",
+  "usuario": "ricardo",
+  "criadoEm": "2026-04-17T18:32:07.311279",
+  "atualizadoEm": "2026-04-17T18:32:07.311279"
+}
+>> C:\Projetos\miniagendamento\.idea\httpClient\04-17\2. Buscar por Id\2026-04-17T184829.json

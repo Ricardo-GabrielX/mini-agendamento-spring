@@ -1,0 +1,6 @@
+// Size: 0 B
+### HTTP Request ▏#1
+GET http://localhost:8080/api/agendamentos HTTP/1.1
+Accept: application/json
+Content-Length: 0
+
